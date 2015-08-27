@@ -8,6 +8,9 @@ public class Agent {
 	String agentName;
 	
 
+	public Agent(){
+		
+	}
 	public Agent(String agentId, String agentName){
 		this.agentId=agentId;
 		this.agentName=agentName;

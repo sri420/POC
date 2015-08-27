@@ -15,7 +15,7 @@ import com.sun.jersey.api.client.WebResource;
 public class AgentClientBean {
 
 	Client client = Client.create();
-	public static String AGENT_URL="http://localhost:8080/agent";
+	public static String AGENT_URL="http://localhost:9080/agent";
 	
 	
 	public Agent getAgentDetails(String agentId) throws JsonParseException, JsonMappingException, IOException{
